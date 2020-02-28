@@ -14,20 +14,20 @@ Each legend item has:
 - `name`: the name of the layer
 - `type`: a type of the item (basic, choropleth or gradient)
 - `items`: an array of objects having name and color values
-- `description`: data to be displayed in a modal.
+- `description`: data to be displayed in a modal
 
 #### DESIGNS
 Designs are stored in Figma. You should create an account to be able to see them.
 
-- https://www.figma.com/file/CcReFFvkqC2FZoCi8yiGhb/Code-Challenge?node-id=0%3A1 Here you can inspect every single component of the legend
-- https://www.figma.com/proto/CcReFFvkqC2FZoCi8yiGhb/Code-Challenge?node-id=1%3A415&scaling=min-zoom Here you can see the legend working
+- [Figma - inspect link](https://www.figma.com/file/CcReFFvkqC2FZoCi8yiGhb/Code-Challenge?node-id=0%3A1)
+- [Figma - preview link](https://www.figma.com/proto/CcReFFvkqC2FZoCi8yiGhb/Code-Challenge?node-id=1%3A415&scaling=min-zoom)
 
 #### ICONS
 All the icons required are stored in this repo, check `assets/icons`. Feel free to add them as you desire.
 
 
 ## Basic requirements:
-Create 3 different legend item components: basic, choropleth and gradient. Timeline is optional
+Create 3 different legend item components: basic, choropleth and gradient. Timeline is optional.
 
 `basic`
 
@@ -46,7 +46,7 @@ If you are not going to do this layer, please filter it out from the data respon
 
 ![timeline](assets/images/timeline.png)
 
-Create the toolbar component which contains 3 different buttons, each of them has a tooltip with short-name:
+Create the toolbar component which contains 3 different buttons, each of them has a tooltip with a short name:
 
 `info button`
   - tooltip short name: "Layer Info"
@@ -66,17 +66,17 @@ Create the toolbar component which contains 3 different buttons, each of them ha
 ## Optional goals:
 If you found the basic requirements too easy, you can always try to implement something extra:
 
-**1)** It seems that the client wants to put a text inside the first layer (see screenshot). Could you add it and make it scalable for future changes?
+**1)** The client wants to put a text inside the first layer (see screenshot). Could you add it and make it scalable for future changes?
 
 ![additional-text](assets/images/additional-text.png)
 
 
-**2)** It seems that the client wants to be able to sort the layers. As he have a handler designed on the right of each layer item, could you add a functionality of drag and drop to be able to sort the layers? Also, you should expose a function `onChangeOrder` with the new ids sorted.
+**2)** The client wants to be able to sort the layers. As the legend has a handler designed on the left side of each layer item, could you add a functionality of drag and drop to be able to sort the layers? Also, you should expose a function `onChangeOrder` with the new ids sorted.
 
 
-**3)** You may noticed that there are 4 layers inside the `data.json`. The last one has a timeline config with the following values
+**3)** You may notice that there are 4 layers inside the `data.json`. The last one has a timeline config with the following values:
 - `step`: it defines how many steps you should increase each time
-- `speed`: it defines the changing velocity of the step (Only if we animate it)
+- `speed`: it defines the changing velocity of the step (only if we animate it)
 - `dateFormat`: it defines the format you should show for the dates inside the legend
 - `maxDate`: Max date
 - `minDate`: Min date
@@ -111,3 +111,5 @@ Here are a few hints that can help to align your code with the requirements:
 - Is it responsive? Does it scale on mobile devices easily?
 - Does the readme file describes all the features and covers all the information that is essential for the project?
 - Don’t focus only on the “happy path” - have you covered all the edge cases that you faced?
+
+Good luck!
