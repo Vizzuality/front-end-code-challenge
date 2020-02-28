@@ -75,8 +75,8 @@ If you found the basic requirements too easy, you can always try to implement so
 
 
 **3)** You may noticed that there are 4 layers inside the `data.json`. The last one has a timeline config with the following values
-- `step`: it defines how many steps you increase each time
-- `speed`: it defines the velocity of changing the step
+- `step`: it defines how many steps you should increase each time
+- `speed`: it defines the changing velocity of the step (Only if we animate it)
 - `dateFormat`: it defines the format you should show for the dates inside the legend
 - `maxDate`: Max date
 - `minDate`: Min date
