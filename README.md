@@ -1,10 +1,10 @@
 # Front-end-code-challenge
 
-![legend](assets/images/legend.png)
+![Legend component which is composed of several items, each one with settings such as a toggle button, an info button and a button to collapse the item](assets/images/legend.png)
 
 
 ## Objective
-To complete this code challenge, you will need to develop a simple React-based web application, containing the Legend component. In the real world scenario, this component would be a part of a more extensive flow on the map, but for the recruitment purpose, you will focus only this bit.
+To complete this code challenge, you will need to set up a simple React-based web application and implement the Legend component from above. In a real world scenario, this component would be attached to a map, and part of a more extensive flow, but for the recruitment purpose, you will focus only this bit.
 
 #### DATA
 The sample legend data, located in the `data.json` file, describe the items of the legend component. It should be fetched dynamically (like would you do if it was data from a REST API). You can use directly this url if you want [DATA](https://raw.githubusercontent.com/Vizzuality/front-end-code-challenge/master/data.json)
@@ -34,20 +34,20 @@ Create 3 different legend item components: basic, choropleth and gradient. Timel
 
 `basic`
 
-![basic](assets/images/basic.png)
+![Basic item which contains a list of values, each associated with a color](assets/images/basic.png)
 
 `choropleth`
 
-![choropleth](assets/images/choropleth.png)
+![Choropleth item which is composed of a ramp of colours associated with text](assets/images/choropleth.png)
 
 `gradient`
 
-![gradient](assets/images/gradient.png)
+![Gradient item is a gradient between two colours, each extremity with a value](assets/images/gradient.png)
 
 `timeline` (optional)
 If you are not going to do this layer, please filter it out from the data response.
 
-![timeline](assets/images/timeline.png)
+![Timeline item is an interactive element where the user can select a range between two dates](assets/images/timeline.png)
 
 Create the toolbar component which contains 3 different buttons, each of them has a tooltip with a short name:
 
@@ -71,7 +71,7 @@ If you found the basic requirements too easy, you can always try to implement so
 
 **1)** The client wants to put a text inside the first layer (see screenshot). Could you add it and make it scalable for future changes?
 
-![additional-text](assets/images/additional-text.png)
+![Gradient item with additional text at the bottom and a link or button](assets/images/additional-text.png)
 
 
 **2)** The client wants to be able to sort the layers. As the legend has a handler designed on the left side of each layer item, could you add a functionality of drag and drop to be able to sort the layers? Also, you should expose a function `onChangeOrder` with the new ids sorted.
