@@ -71,7 +71,7 @@ If you found the basic requirements too easy, you can always try to implement so
 ![additional-text](assets/images/additional-text.png)
 
 
-**2)** The client wants to be able to sort the layers. As he has a handler designed on the left side of each layer item, could you add a functionality of drag and drop to be able to sort the layers? Also, you should expose a function `onChangeOrder` with the new ids sorted.
+**2)** The client wants to be able to sort the layers. As the legend has a handler designed on the left side of each layer item, could you add a functionality of drag and drop to be able to sort the layers? Also, you should expose a function `onChangeOrder` with the new ids sorted.
 
 
 **3)** You may notice that there are 4 layers inside the `data.json`. The last one has a timeline config with the following values:
