@@ -14,7 +14,7 @@ Each legend item has:
 - `name`: the name of the layer
 - `type`: a type of the item (basic, choropleth or gradient)
 - `items`: an array of objects having name and color values
-- `description`: data to be displayed in a modal or something similar.
+- `description`: data to be displayed in a modal.
 
 #### DESIGNS
 Designs are stored in Figma. You should create an account to be able to see them.
@@ -50,7 +50,7 @@ Create the toolbar component which contains 3 different buttons, each of them ha
 
 `info button`
   - tooltip short name: "Layer Info"
-  - a click opens a modal or something similar that displays the content from the `description` field. Please consider that some of the values are HTML string and they need to be parsed.
+  - a click opens a modal that displays the content from the `description` field. Please consider that some of the values are HTML string and they need to be parsed.
   - expose a function called `onChangeInfo`
 
 `visibility button`
