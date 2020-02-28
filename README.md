@@ -7,7 +7,7 @@
 To complete this code challenge, you will need to develop a simple React-based web application, containing the Legend component. In the real world scenario, this component would be a part of a more extensive flow on the map, but for the recruitment purpose, you will focus only this bit.
 
 #### DATA
-The sample legend data, located in the `data.json` file, describe the items of the legend component. It should be fetched dynamically (like would you do if it was data from a REST API). You can use directly this url if you want `https://raw.githubusercontent.com/Vizzuality/front-end-code-challenge/feature/readme/data.json`
+The sample legend data, located in the `data.json` file, describe the items of the legend component. It should be fetched dynamically (like would you do if it was data from a REST API). You can use directly this url if you want [DATA](https://raw.githubusercontent.com/Vizzuality/front-end-code-challenge/master/data.json)
 
 Each legend item has:
 - `id`: a unique identifier
@@ -21,6 +21,9 @@ Designs are stored in Figma. You should create an account to be able to see them
 
 - [Figma - inspect link](https://www.figma.com/file/CcReFFvkqC2FZoCi8yiGhb/Code-Challenge?node-id=0%3A1)
 - [Figma - preview link](https://www.figma.com/proto/CcReFFvkqC2FZoCi8yiGhb/Code-Challenge?node-id=1%3A415&scaling=min-zoom)
+
+
+Font: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
 #### ICONS
 All the icons required are stored in this repo, check `assets/icons`. Feel free to add them as you desire.
