@@ -126,5 +126,5 @@ Here are a few hints that can help to align your code with the requirements:
 
 Good luck!
 
-**“The Importer Challenge” has been created with the sole intention of being used as a guiding document for the current recruitment process. This means we won't be using it (all or parts of it) within our projects.**
+**“The Challenge” has been created with the sole intention of being used as a guiding document for the current recruitment process. This means we won't be using it (all or parts of it) within our projects.**
 
