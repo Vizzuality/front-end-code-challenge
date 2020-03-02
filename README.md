@@ -3,7 +3,16 @@
 ![Legend component which is composed of several items, each one with settings such as a toggle button, an info button and a button to collapse the item](assets/images/legend.png)
 
 
+## Instruction for completing and submitting the challenge:
+
+First thing first. This coding challenge is about creating a space for you to share with us how you work and reason, what things you care about when doing coding work, and how you approach problem solving. As such, through this challenge we are not expecting to check if you know the finest algorithms, have all the right answers to a given situation or if you are the best coder in the world. We believe there are no right or wrong answers, so please make yourself comfortable and focus on what you know best.
+
+**Please submit your ideas to us in 1 week (max).** This will give us enough time to review your challenge with the rest of the team before the next interview. During this interview we will take some time to explore together your coding challenge submission, and will ask you any clarifying questions we might have.
+
+Based on previous candidate experiences, we believe **it will take you between 6 and 10 hours to complete the challenge.** If you see yourself allocating a lot more than that, you are including too much and/or overcomplicating it :)
+
 ## Objective
+
 To complete this code challenge, you will need to set up a simple React-based web application and implement the Legend component from above. In a real world scenario, this component would be attached to a map, and part of a more extensive flow, but for the recruitment purpose, you will focus only this bit.
 
 #### DATA
@@ -116,3 +125,6 @@ Here are a few hints that can help to align your code with the requirements:
 - Don’t focus only on the “happy path” - have you covered all the edge cases that you faced?
 
 Good luck!
+
+**“The Importer Challenge” has been created with the sole intention of being used as a guiding document for the current recruitment process. This means we won't be using it (all or parts of it) within our projects.**
+
