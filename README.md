@@ -9,7 +9,7 @@ First thing first. This coding challenge is about creating a space for you to sh
 
 **Please submit your ideas to us in 1 week (max).** This will give us enough time to review your challenge with the rest of the team before the next interview. During this interview we will take some time to explore together your coding challenge submission, and will ask you any clarifying questions we might have.
 
-Based on previous candidate experiences, we believe **it will take you between 6 and 10 hours to complete the challenge.** If you see yourself allocating a lot more than that, you are including too much and/or overcomplicating it :)
+Based on previous candidate experiences, we believe **it will take you between 8 and 10 hours to complete the challenge.** 
 
 ## Objective
 
