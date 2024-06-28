@@ -6,9 +6,7 @@ You will be tasked with creating a React SPA showing bicycle networks around the
 
 **Please submit your ideas to us within two weeks (max).** This will give us enough time to review your challenge with the rest of the team before the next interview. During this interview, we will take some time to explore your coding challenge submission together and ask any clarifying questions we might have.
 
-The challenge is designed so that a senior profile can solve it within 24 hours. If something comes up and you can't deliver within the two-week time-frame, let us know. We are flexible.
-
-Based on previous candidate experiences, we believe **it will take you between 8 and 10 hours to complete the challenge.**
+The challenge is designed so that a candidate can **complete it within 8 to 10 hours**. If something comes up and you can't deliver within the two-week time-frame, let us know. We are flexible.
 
 ## Design
 
@@ -29,17 +27,17 @@ You will build a React application using the technologies and design listed abov
 
 ### README
 
-Your submission should also include a readme file, where you can document your work, describe the features and the architectural decisions that you made. Feel free to share there your thoughts about the challenges that you faced implementing this code.
+Your submission should also include a README file where you can document your work, describe the features and the architectural decisions that you made. Feel free to share your thoughts about the challenges that you faced implementing your code.
 
 ### Data
 
 The bicycle network data is fetched from the following API: https://api.citybik.es/v2/
 
-The country data is provided in a `data` folder in this repository.
+The country data is provided in the `data` folder in this repository.
 
 ### Deployment
 
-For sharing purposes please create a **new GitHub repo**, and **make your application accessible** by deploying in a platform of your preference (we recommend Vercel) and provide links. Please, share links of both, repository and URL deployment.
+In order to access the application, we are asking you to **create a repository** (on GitHub for example) and to **deploy the application** using a cloud platform of your choice (we recommend [Vercel](https://vercel.com/)). Don't forget to share the links to both the repository and public application URL.
 
 ### App structure
 
@@ -49,30 +47,40 @@ There is a list of all the bicycle networks and for each of them:
 
 - Name.
 - Location (city and country).
+- Companies operating the network (can be multiple).
 - Link to access the detail view.
 - There is a map showing all the bicycle networks.
 - Clicking on a network opens the detail view.
 - There is a country filter that affects both the list and the map:
-  - Multiple countries can be selected at once.
-  - The options are inclusive (OR filter).
-  - The selected options are stored in the URL. (e.g. ?countries=FR,IT)
+  - Only one country can be selected at once.
+  - The selected option is stored in the URL (e.g. `?country=FR`).
   - When reloading the page, the filter is still applied.
+- There is a search input that affects both the list and the map:
+  - The search is performed against the name of the networks and name of the operating companies.
+  - The keyword is stored in the URL (e.g. `?search=velib`).
+  - When reloading the page, the filter is still applied.
+- BONUS: There is a way to centre and zoom the map around the user's location
+- BONUS: The list of networks is paginated
 
 #### Detail view
 
-The detail view **must be accessible by URL**.
-
-There is general information about the bicycle network:
-
-- Name.
-- Name of the companies operating the network.
-- Location (city and country).
-
-There is a list of all the bicycle stations belonging to the network:
-
-- Name.
-- Number of available bikes.
-- Number of empty slots.
+- The detail view **must be accessible by URL**.
+- There is general information about the bicycle network:
+  - Name.
+  - Name of the companies operating the network (can be multiple).
+  - Location (city and country).
+- There is a list of all the bicycle stations belonging to the network:
+  - Name.
+  - Number of free bikes.
+  - Number of empty slots.
+- There is a button to go back to the main view. 
+- There is a map showing all the bicycle stations.
+- Clicking on a station on the map opens a tooltip:
+  - Name.
+  - Number of free bikes.
+  - Number of empty slots.
+- BONUS: The list of bicycle stations is paginated
+- BONUS: The list of bicycle stations can be sorted by free bikes and empty slots (ascending and descending).
 
 If any of these requirements are unclear, feel free to reach out for guidance. If this challenge proves to be too much work, it's better to focus your attention on fewer items.
 
