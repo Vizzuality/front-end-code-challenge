@@ -10,7 +10,10 @@ The challenge is designed so that a candidate can **complete it within 8 to 10 h
 
 ## Design
 
-You can find the design of the application here: TBD (public figma)
+You can find the design of the application here:
+
+- [Interactive prototype](https://www.figma.com/proto/0MNqMneHvxahQZ6pknjzlq/Frontend-Challenge?page-id=1166%3A4310&node-id=5110-10913&viewport=4865%2C-2607%2C0.79&t=UlhDbVzZT1c5dezR-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=5110%3A10913)
+- [UI kit](https://www.figma.com/design/0MNqMneHvxahQZ6pknjzlq/Frontend-Challenge?node-id=1166-4310)
 
 ## Technical requirements
 
