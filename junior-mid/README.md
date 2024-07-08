@@ -16,7 +16,7 @@ Based on previous candidate experiences, we believe **it will take you between 8
 To complete this code challenge, you will need to set up a simple React-based web application and implement the Legend component from above. In a real world scenario, this component would be attached to a map, and part of a more extensive flow, but for the recruitment purpose, you will focus only this bit.
 
 #### DATA
-The sample legend data, located in the `data.json` file, describe the items of the legend component. It should be fetched dynamically (like would you do if it was data from a REST API). You can use directly this url if you want [DATA](https://raw.githubusercontent.com/Vizzuality/front-end-code-challenge/master/data.json)
+The sample legend data, located in the `data.json` file, describe the items of the legend component. It should be fetched dynamically (like would you do if it was data from a REST API). You can use directly this url if you want [DATA](https://raw.githubusercontent.com/Vizzuality/front-end-code-challenge/master/junior-mid/data.json)
 
 Each legend item has:
 - `id`: a unique identifier
