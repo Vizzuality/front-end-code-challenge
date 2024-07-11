@@ -6,7 +6,7 @@ You will be tasked with creating a React SPA showing bicycle networks around the
 
 **Please submit your ideas to us within one week (max).** This will give us enough time to review your challenge with the rest of the team before the next interview. During this interview, we will take some time to explore your coding challenge submission together and ask any clarifying questions we might have.
 
-The challenge is designed so that a candidate can **complete it within 8 to 10 hours**. If something comes up and you can't deliver within the two-week time-frame, let us know. We are flexible.
+The challenge is designed so that a candidate can **complete it within 8 to 10 hours**. If something comes up and you can't deliver within a one week time-frame, let us know. We are flexible.
 
 ## Design
 
