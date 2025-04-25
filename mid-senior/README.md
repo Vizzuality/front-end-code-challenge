@@ -60,6 +60,9 @@ There is a list of all the bicycle networks and for each of them:
   - When reloading the page, the filter is still applied.
 - **BONUS**: The list of networks is paginated
 
+**NOTE**: following the design, you **_do not need to implement the map_**, but please **_leave space in the layout_** where it would appear. 
+This helps us understand how you would structure the page with this in mind.
+
 
 #### If you are applying to a MID/SENIOR position:
 
@@ -98,6 +101,9 @@ There is a list of all the bicycle networks and for each of them:
 - There is a button to go back to the main view.
 - **BONUS**: The list of bicycle stations is paginated
 - **BONUS**: The list of bicycle stations can be sorted by free bikes and empty slots (ascending and descending).
+
+**NOTE**: following the design, you **_do not need to implement the map_**, but please **_leave space in the layout_** where it would appear.
+This helps us understand how you would structure the page with this in mind.
 
 #### If you are applying to a MID/SENIOR position:
 
